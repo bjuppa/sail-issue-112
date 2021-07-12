@@ -1,4 +1,4 @@
-# Problem with parallel testing with Sail and database user other than `root`
+# Reproduction of problem with parallel testing with Sail when database user is other than `root`
 
 See discussion at https://github.com/laravel/sail/issues/112
 
