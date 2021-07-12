@@ -35,6 +35,5 @@ This repo is a fresh Laravel install modified to put another `DB_USERNAME` than 
 The test runner seems to drop & create a new database using the non-root db user configured in `.env` and it lacks permissions to do so:
 
 ```sql
-SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'sail_issue_112'@'%' to database 'sail_issue_112_test_1' (SQ
-  L: drop database if exists `sail_issue_112_test_1`)
+SQLSTATE[42000]: Syntax error or access violation: 1044 Access denied for user 'sail_issue_112'@'%' to database 'sail_issue_112_test_1' (SQL: drop database if exists `sail_issue_112_test_1`)
 ```
