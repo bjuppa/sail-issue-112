@@ -2,7 +2,7 @@
 
 See discussion at https://github.com/laravel/sail/issues/112
 
-This repo is a fresh Laravel install modified to put another user than `root` into `.env`.
+This repo is a fresh Laravel install modified to put another `DB_USERNAME` than `root` into `.env`.
 
 ## Steps to reproduce
 
